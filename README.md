@@ -147,6 +147,124 @@ Arduino-Bluetooth-RC-Car
 
 ---
 
+
+# Required Libraries
+
+SoftwareSerial
+
+Already available in Arduino IDE.
+
+No external libraries required.
+
+
+# Arduino Pin Mapping
+
+| Pin | Function |
+|------|----------|
+| D2 | Bluetooth RX |
+| D3 | Bluetooth TX |
+| D5 | ENA |
+| D6 | ENB |
+| D8 | IN1 |
+| D9 | IN2 |
+| D10 | IN3 |
+| D11 | IN4 |
+| 5V | HC05 VCC |
+| GND | Common Ground |
+
+
+# Bluetooth Commands
+
+Forward
+
+```
+F
+```
+
+Backward
+
+```
+B
+```
+
+Left
+
+```
+L
+```
+
+Right
+
+```
+R
+```
+
+Stop
+
+```
+S
+```
+
+Low Speed
+
+```
+1
+```
+
+Medium Speed
+
+```
+2
+```
+
+High Speed
+
+```
+3
+```
+
+
+# Components
+
+Arduino UNO
+
+HC-05 Bluetooth Module
+
+L298N Motor Driver
+
+4 TT Gear Motors
+
+Robot Chassis
+
+4 Wheels
+
+Battery Holder
+
+2 x 18650 Batteries
+
+Jumper Wires
+
+Switch
+
+
+
+## Bill of Materials (BOM)
+
+| Component | Quantity |
+|-----------|:--------:|
+| Arduino UNO | 1 |
+| HC-05 Bluetooth Module | 1 |
+| L298N Motor Driver | 1 |
+| TT DC Gear Motor | 4 |
+| Robot Wheels | 4 |
+| Robot Chassis | 1 |
+| 18650 Battery Holder | 1 |
+| 18650 Li-ion Battery | 2 |
+| Jumper Wires | 20 |
+| Power Switch | 1 |
+
+
+
 # Future Improvements
 
 - Obstacle Avoidance
